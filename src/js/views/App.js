@@ -3,7 +3,7 @@ import Navbar from "../component/Navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Container, Dimmer, Loader } from "react-router-dom";
 
-import Home2 from "../Components/Home2";
+import { Home } from "../Components/Home";
 import People from "../Components/People";
 import Planets from "../Components/Planets";
 
