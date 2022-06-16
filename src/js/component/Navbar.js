@@ -9,10 +9,10 @@ const Navbar = () => {
 				<Link to="/">
 				  <Menu.Item name="star wars API" />
 				</Link>
-				<Link to="/people">
+				<Link to="/People">
 					<Menu.Item name="people" />
 				</Link>
-				<Link to="/planets">
+				<Link to="/Planets">
 					<Menu.Item name="planets" />
 				</Link>
 			</Container>

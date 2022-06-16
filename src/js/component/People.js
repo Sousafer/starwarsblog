@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import { Card, Grid } from "react-router-dom";
+import React from "react";
+import { Card, Grid } from "semantic-ui-react";
 
-export default function People({ data }) {
+const People = ({ data }) => {
     return (
        <> 
            <h1>People</h1>
@@ -10,6 +10,7 @@ export default function People({ data }) {
                    return (
                         <Grid.Column key={ì}>
                             <Card>
+                            <Card.Content>
                             <Card.Header>{people.name}</Card.Header>
                             <Card.Description>
                                 <strong>Height</strong>
@@ -26,5 +27,6 @@ export default function People({ data }) {
                })}
            </Grid>
        </>
-    );
+    )
 }
+export default People;
